@@ -18,7 +18,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900"
         style={{
-          backgroundImage: `url('/placeholder.svg?height=1080&width=1920')`,
+          backgroundImage: `url('./landing-image.webp')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           transform: `translateY(${scrollY * 0.5}px)`,
